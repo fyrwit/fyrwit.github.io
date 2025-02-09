@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://fyrwit.github.com"
+baseurl = "https://fyrwit.com"
 languageCode = "en-us"
 title = "Fyrwit: following curiosity"
 
