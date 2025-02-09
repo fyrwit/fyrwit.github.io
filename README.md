@@ -1,1 +1,1 @@
-Visit fyrwit.github.io
+Go to https://fyrwit.com
