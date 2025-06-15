@@ -4,6 +4,9 @@ on:
   push:
     branches: [ main ]         # or master – whatever your source branch is
 
+permissions:
+  contents: write               # <-- required for actions-gh-pages v4
+
 jobs:
   build:
     runs-on: ubuntu-latest
