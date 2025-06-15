@@ -1,0 +1,25 @@
+name: Build & Deploy Hugo site
+
+on:
+  push:
+    branches: [ main ]         # or master – whatever your source branch is
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install the Hugo version you develop with
+      - uses: peaceiris/actions-hugo@v3            # © peaceiris
+        with:
+          hugo-version: '0.124.1'                  # update if you use newer
+
+      - name: Build
+        run: hugo --minify                         # creates ./public
+
+      # Publish ./public to the gh-pages branch
+      - uses: peaceiris/actions-gh-pages@v4        # © peaceiris
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
