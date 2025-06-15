@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on fyrwit</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on fyrwit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>fyrwit.fifth716@passinbox.com (fyrwit)</managingEditor>
+    <webMaster>fyrwit.fifth716@passinbox.com (fyrwit)</webMaster>
+    <lastBuildDate>Fri, 09 Apr 1841 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Waiting</title>
+      <link>http://localhost:1313/post/waiting/</link>
+      <pubDate>Fri, 09 Apr 1841 00:00:00 +0000</pubDate><author>fyrwit.fifth716@passinbox.com (fyrwit)</author>
+      <guid>http://localhost:1313/post/waiting/</guid>
+      <description>Waiting &amp;ldquo;Red wine and coke, bro&amp;rdquo; Job site; blue collars, waiting. &amp;ldquo;It&amp;rsquo;s the way to go.&amp;rdquo;</description>
+      <content:encoded><![CDATA[<h2 id="waiting">Waiting</h2>
+<p>&ldquo;Red wine and coke, bro&rdquo;
+Job site; blue collars, waiting.
+&ldquo;It&rsquo;s the way to go.&rdquo;</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
