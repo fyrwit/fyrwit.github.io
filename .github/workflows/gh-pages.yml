@@ -13,6 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Remove EXIF from all images
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y libimage-exiftool-perl
+          # Recursively strip in-place inside static/ and any leaf bundles
+          exiftool -r -overwrite_original -all= static/ content/ */**/*.{jpg,JPG,jpeg,JPEG,png,PNG,webp,WEBP} || true
+
       # Install the Hugo version you develop with
       - uses: peaceiris/actions-hugo@v3            # © peaceiris
         with:
