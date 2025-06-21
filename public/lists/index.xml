@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>fyrwit</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on fyrwit</description>
+    <title>Lists on fyrwit</title>
+    <link>http://localhost:1313/lists/</link>
+    <description>Recent content in Lists on fyrwit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>fyrwit.fifth716@passinbox.com (fyrwit)</managingEditor>
     <webMaster>fyrwit.fifth716@passinbox.com (fyrwit)</webMaster>
     <lastBuildDate>Fri, 20 Jun 2025 20:16:54 +1200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/lists/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Youtube</title>
       <link>http://localhost:1313/lists/youtube/</link>
@@ -182,18 +182,6 @@
 </li>
 </ol>
 </div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Waiting</title>
-      <link>http://localhost:1313/posts/waiting/</link>
-      <pubDate>Fri, 09 Apr 1841 00:00:00 +0000</pubDate><author>fyrwit.fifth716@passinbox.com (fyrwit)</author>
-      <guid>http://localhost:1313/posts/waiting/</guid>
-      <description>&amp;ldquo;Red wine and coke, bro&amp;rdquo; Job site; blue collars, waiting. &amp;ldquo;It&amp;rsquo;s the way to go.&amp;rdquo;</description>
-      <content:encoded><![CDATA[<p>&ldquo;Red wine and coke, bro&rdquo; <!-- raw HTML omitted --></p>
-<p>Job site; blue collars, waiting. <!-- raw HTML omitted --></p>
-<p>&ldquo;It&rsquo;s the way to go.&rdquo;</p>
-<p><img src="/img/waiting.jpg" alt="shopping cart eating bollard"></p>
 ]]></content:encoded>
     </item>
   </channel>

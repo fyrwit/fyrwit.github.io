@@ -1,0 +1,11 @@
+{{- $href := .Destination | safeURL -}}
+{{- $text := .Text | safeHTML -}}
+
+{{/* Open external links in a new tab, leave internal ones alone */}}
+{{- if strings.HasPrefix $href "http" -}}
+  <a href="{{ $href }}"
+     target="_blank"
+     rel="noopener noreferrer">{{ $text }}</a>
+{{- else -}}
+  <a href="{{ $href }}">{{ $text }}</a>
+{{- end -}}
