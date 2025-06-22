@@ -2,6 +2,6 @@
 title: "Welcome"
 ---
 
-Welcome to my project. 
+Welcome! 
 
 ![fyrwit - curiosity](/img/fyrwit.png)
